@@ -1,15 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Zilla+Slab:ital,wght@1,500&display=swap');
+
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button, h2, h3, h4, p {
+    font-family: 'Zilla Slab', serif;
+}
+button {
+    font-size: medium;
+}
+
 body {
     margin: 0;
-    background-color: rgb(255, 185, 185);
+    background-color: greenyellow;
 }
 
 .rounded {
     border-radius: 99%;
 }
 
+
 #logo-img{
     width: 100%;
     object-fit: cover;
+    box-shadow: 0 0 10px 0;
 }
 
 #left-bar{
@@ -19,7 +36,7 @@ body {
     height: 1000px;
     width: 15%;
     margin-top: -21px;
-    background-color: red;
+    background-color: green;
 }
 
 #right-section {
@@ -32,11 +49,11 @@ body {
     padding: 15px;
     border-radius: 10px;
     border: none;
-    margin: 2px 0 2px 0;
+    margin: 4px 0 4px 0;
+    box-shadow: 0 0 5px 0;
 }
 
 .cards-info {
-    border: 3px solid black;
     border-radius: 7px;
     padding: 1%;
     margin: 2% 2% 2% 0;
@@ -47,6 +64,10 @@ body {
     align-items: center;
 }
 
+.cards-info div h4 {
+    margin-right: 3px;
+}
+
 #hobbies #imagens  {
     display: flex;
 }
@@ -55,13 +76,25 @@ body {
     margin: 1%;
     width: 20%;
     text-align: center;
+    border-radius: 15px;
 }
 
 #hobbies #imagens div img {
     height: 70%;
     width: 100%;
+    object-fit: cover;
 }
 
+#left-bar button, #hobbies #imagens div, .fundo-verde-claro{
+    background-color: hsl(84, 100%, 81%);
+    box-shadow: 0 0 5px 0;
+}
 #contato form {
     margin: 2% 0 7% 0;
+}
+
+#contato form button {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
 }
