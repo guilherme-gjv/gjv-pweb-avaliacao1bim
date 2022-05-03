@@ -1,3 +1,52 @@
 body {
     margin: 0;
+    background-color: rgb(255, 185, 185);
+}
+
+.rounded {
+    border-radius: 99%;
+}
+
+#logo-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#left-bar{
+    position: fixed;
+    padding: 3%;
+    float: left;
+    height: 1000px;
+    width: 15%;
+    margin-top: -21px;
+    background-color: red;
+}
+
+#right-section {
+    margin-left: 22%;
+}
+
+#left-bar button{
+    
+    width: 100%;    
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    margin: 2px 0 2px 0;
+}
+
+.cards-info {
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 2% 2% 2% 0;
+}
+
+.cards-info div{
+    display: flex;
+    align-items: center;
+}
+
+#contato form {
+    margin: 2% 0 7% 0;
 }
