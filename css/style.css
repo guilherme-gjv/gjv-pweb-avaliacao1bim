@@ -47,6 +47,21 @@ body {
     align-items: center;
 }
 
+#hobbies #imagens  {
+    display: flex;
+}
+
+#hobbies #imagens div {
+    margin: 1%;
+    width: 20%;
+    text-align: center;
+}
+
+#hobbies #imagens div img {
+    height: 70%;
+    width: 100%;
+}
+
 #contato form {
     margin: 2% 0 7% 0;
 }
